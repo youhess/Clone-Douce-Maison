@@ -5,7 +5,7 @@ import { resolve } from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Douce-Maison/",
+  base: "/Clone-Douce-Maison/",
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
